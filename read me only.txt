@@ -1,0 +1,10 @@
+add file to wampserver www directory then in research write:
+localhost/loccar1/DB.php
+to create data base automaticaly
+
+
+dashboard login: younes
+dashboard password: 22222
+
+client login: younes
+client password:11111
