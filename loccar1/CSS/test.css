@@ -1,0 +1,193 @@
+/*********************cette feuille de style responsable des pages alocation , dashboard ,page de profil, login*/
+
+/*******les formulaires dashboard*******/
+.form_dashboard{
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 15px;
+	background:linear-gradient(to right ,#9f3f68de,#604fd7de);
+	padding: 20px;
+	margin: auto;
+	margin-bottom: 20px;
+	box-shadow:-15px -15px 15px rgba(255,255,255,0.2),15px 15px 15px rgba(0,0,0,0.1),inset -5px -5px 5px rgba(255,255,255,0.2),inset 5px 5px 5px rgba(0,0,0,0.1);
+}
+#body_dashboard{  background:linear-gradient(to right ,#9f3f68de,#604fd7de);
+   
+   }
+.label-class{
+	font-weight: bold;
+	font-family: Georgia, serif;
+    color: var(--blue1);
+}
+
+input[type=text]{
+	padding: 10px;
+	width: 210px;
+	font-size: 17px;
+	border-color: black;
+}
+
+input[type=submit]{
+	font-family: raleway;
+	border-radius: 30px;
+	border: 2px solid #99bdf7;
+	background-color: #99bdf7;
+	padding: 6px;
+	cursor: pointer;
+	font-size: 15px;
+	transition: 0.5s;
+}
+
+input[type=submit]:hover{
+	background-color: #77a8f7;
+	border: 2px solid #77a8f7;
+	transform: rotate(5deg);
+	
+}
+.form_dashboard label {
+	color: orange;
+	font-weight: 100px;
+	font-size: large;
+}
+#titr_form{
+	color:#9f3f68;
+	 font-family: cursive;
+}
+#gestion{
+	color:#2c3e85;
+	 text-align:center;
+	  font-family: cursive;
+	  text-decoration: underline;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+    
+}
+td{
+	border: 2px solid #99bdf7;
+}
+table>tr  {
+   
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+/*************************page d'allocation******************************/
+.recu{
+    text-align: center;
+    font-size: larger;
+	color: aliceblue;
+	font-weight: bolder;
+
+}
+.alocation_page{
+	height: 500px;
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.felicitation{
+	position: relative;
+	top: 20%;
+	height: 250px;	
+	margin-bottom: 60px;
+	font-family: cursive;
+}
+
+/***************page de profil******************************/
+.deconnexion{
+	height: 50px;
+}
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+/*li{
+	margin: 10px;
+}*/
+
+.deconnexion{
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+	color: red;
+}
+
+.deconnexion:hover{
+	background-color: red;
+	color: white;
+}
+/*************page de login*********************/
+@font-face{
+	src: url('fonts/Raleway-Regular.ttf');
+	font-family: raleway;
+}
+.body_login, .alocation_page{
+	font-family: raleway;
+	margin: 0px;
+	background:linear-gradient(to right ,#9f3f68de,#604fd7de), url(../images/RentalCarLG.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+     background-blend-mode: multiply; 
+}
+
+#titr_login{
+	margin-bottom: 50px;
+	font-family: cursive;
+	 color:#9f3f68;
+}
+#form_login{
+	text-align: center;
+	border-radius: 5px;
+	width: 700px;
+	padding: 20px;
+	background-color: #e6e7e8de;
+	margin: auto;
+	margin-bottom: 20px;
+	margin-top: 120px;
+}
+
+.label-class{
+	font-weight: bold;
+}
+input[type=text],input[type=password]{
+	padding: 10px;
+	border-radius: 50px;
+	font-size: 17px;
+	border: 2px solid #604fd7;
+}
+input[type=text],input[type=password],input[type=submit]:focus{
+	outline: none;
+}
+
+/*input[type=submit]{
+	font-family: raleway;
+	border-radius: 10px;
+	border: 2px solid #0f6afc;
+	background-color: #0f6afc;
+	padding: 10px;
+	cursor: pointer;
+	font-size: 15px;
+	color: white;
+	transition: 0.5s;
+}*/
+
+/*input[type=submit]:hover{
+	background-color: #0057e3;
+	border: 2px solid #0057e3;
+	transform: rotate(5deg);}
+*/
+td{
+	border: 2px solid #99bdf7;
+}
+.titre{
+	background-color: #99bdf7;
+}

@@ -1,0 +1,112 @@
+
+:root/*cette propriéter est utiliser juste pour minimiser le temp par 
+éviter la répétition des codes des couleures*/
+{
+/*c'code sont initialiser ici par deux tiret suivie par un nom qui 
+décrit le code*/
+--violet:#9f3f68;
+--blue1:#7971c5;
+--blue2:#2c3e85;
+--white1:#ffffff;
+--white2:#f7f9ff;
+--black1:#222222de;
+--gray:#444446;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+}
+.navigation{/*******************navigation***************/
+position: fixed;
+width: 0;
+height: 100%;
+background: #ff3300;/*en utilisant le mot clé "var()" on a invoqué 
+le code du couleur qu'on a déja initialiser dans ":root"*/
+/*border-left: 10px solid var(--blue);*/
+transition: 0.5s;
+overflow:hidden;
+z-index: 2;
+}
+.navigation.active{
+    width:300px;
+}
+/***************************************************/
+.navigation ul{
+position: absolute;
+top: 70px;
+left: 0;
+width: 100%;
+}
+/***********************************/
+.navigation ul li {
+position:relative;
+width: 100%;
+list-style: none;
+margin-left:5px;
+}
+#items{
+    width: inherit;
+}
+.navigation ul>li{
+    margin-top:10px;
+}
+
+.navigation ul li:nth-child(1){/*!!!!!!!!!!!!!!!!!!!!!!!*/
+margin-bottom: 40px;
+}
+/********************************/
+.navigation ul li a{
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: var(--white1);
+    }
+  
+/**************************************/
+.navigation ul li a .icon{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 60px;/*!!!!!!!!!!*/
+    text-align: center;
+}
+.navigation ul li a .icon ion-icon{
+    font-size: 1.7em;
+}
+/*****************************************/
+.navigation ul li a .titre{
+position: relative;
+display: block;
+padding: 0 10px;
+height: 60px;
+line-height: 60px;/*!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+text-align: start;
+white-space: normal;
+}
+
+.topbar{
+width: 100%;
+height: 0;
+
+position: sticky;
+top: 0;
+z-index: 3;
+overflow: visible;
+}
+.toggle{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+
+

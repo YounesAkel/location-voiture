@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang>
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cntstyle.css">
+    <title>Contact form</title>
+    <style>
+        body {
+          background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(test004.jpg); 
+          background-size: cover;
+          margin: 0;
+          padding: 0;
+          font-family: sans-serif;
+          text-align: center;
+        }
+             
+
+
+        </style> 
+</head>
+
+<body>
+
+       <div class="contact-title">
+          <h1 id="cont-title">Contact Us</h1>
+          <h2>We Are Always Ready To Serve You!</h2>
+         
+       </div> 
+
+       <div class="contact-form">
+           <form id="contact-form" action="https://formspree.io/f/mqknnjvr"  method="POST" >
+              <input type="text" name="name" class="form-in" placeholder="Your Name" required>
+              <br>
+        
+              <input type="text" name="email" class="form-in" placeholder="Your E-mail" required>
+              <br>
+              
+              <textarea name="message" class="form-in" placeholder="Message" rows="6" required></textarea>
+              <br>
+           
+              <input type="submit" class="form-in" id="btsend" value="SEND MESSAGE" >
+
+
+
+
+
+           </form>
+
+       </div>

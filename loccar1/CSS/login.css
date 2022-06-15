@@ -1,0 +1,74 @@
+@font-face{
+	src: url('fonts/Raleway-Regular.ttf');
+	font-family: raleway;
+}
+
+body{
+	font-family: raleway;
+	margin: 0px;
+	background:linear-gradient(to right ,#9f3f68de,#604fd7de), url(images/RentalCarLG.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+     background-blend-mode: multiply; 
+}
+
+h1{
+	margin-bottom: 50px;
+	
+}
+
+form{
+	text-align: center;
+	border-radius: 5px;
+	width: 700px;
+	padding: 20px;
+	background-color: #e6e7e8;
+	margin: auto;
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+
+.label-class{
+	font-weight: bold;
+}
+
+input[type=text],input[type=password]{
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 17px;
+	border: 2px solid #0f6afc;
+}
+
+input[type=text],input[type=password],input[type=submit]:focus{
+	outline: none;
+}
+
+input[type=submit]{
+	font-family: raleway;
+	border-radius: 10px;
+	border: 2px solid #0f6afc;
+	background-color: #0f6afc;
+	padding: 10px;
+	cursor: pointer;
+	font-size: 15px;
+	color: white;
+	transition: 0.5s;
+}
+
+input[type=submit]:hover{
+	background-color: #0057e3;
+	border: 2px solid #0057e3;
+	transform: rotate(5deg);}
+
+td{
+	border: 2px solid #99bdf7;
+}
+
+.titre{
+	background-color: #99bdf7;
+}
+
+
+

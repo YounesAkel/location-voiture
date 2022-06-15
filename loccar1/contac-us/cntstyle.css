@@ -1,0 +1,59 @@
+.contact-title
+ {
+     text-align: center;
+     margin-top: 100px;
+     color: #fff;
+     text-transform: uppercase;
+     transition: all 4s ease-in-out;
+
+ }
+
+   #cont-title
+  {
+      font-size: 32px;
+      line-height: 1Opx;
+
+  }
+
+  .contact-title h2
+  {
+      font-size: 16px;
+
+  }
+  
+ #contact-form
+ {
+     margin-top: 50px;
+     text-align: center;
+     
+
+ }
+ .form-in
+ {
+     width: 600px;
+     background: transparent;
+     border: none;
+     outline: none;
+     border-bottom: 1px solid gray ;
+     color: #fff;
+     font-size: 16px;
+     margin-bottom: 16px;
+ }
+
+
+ #btsend
+ {
+     background: #ffA500;
+     border-color: transparent;
+     color:white;
+     font-weight: bold;
+     letter-spacing: 2px;
+     height: 50px;
+     margin-top: 20px;
+    }
+    #btsend:hover
+    {
+        background-color: white;
+        cursor: pointer;
+        color: #ffA500;
+    }

@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(to right ,#9f3f68de,#604fd7de), url(../images/RentalCarLG.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+     background-blend-mode: multiply; 
+}
+.admin {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+	color: aliceblue;
+	font-weight: bolder;
+}
+.img_admin{
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+    margin-right: 90px;
+    border-radius: 25px;
+}
+.img_admin img{
+height: 400px;
+border-radius: 25px;
+}
+#des_admin{
+position: absolute;
+top: 319px;
+width: 300px;
+border-radius:0 0 25px 25px;
+background-color: #000000de;
+text-align: center;
+transition: 1s;
+}
+#des_admin h1{
+    font-size: 30px;
+}
+#des_admin:hover{
+    top: 210px;
+}
+.description{
+    width: 50%;
+}
+
+
+
+
+
+

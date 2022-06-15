@@ -1,0 +1,127 @@
+.log_out,.barre{
+	height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 27px;
+}
+a{
+	text-decoration: none;
+    padding-top: 10px;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.deconnexion{
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+	color: red;
+}
+
+.deconnexion:hover{
+	background-color: red;
+	color: white;
+}
+td,th{
+	border: 2px solid black;
+    padding: 10px;
+}
+table{
+    border-collapse: collapse;
+}
+.filtrage{
+    padding-top: 10px;
+}
+.ajout{
+    background-color: #3a62ad;
+	padding: 10px;
+	border-radius: 10px;
+	color: white;
+    text-align: center;
+    width: 200px;
+}
+select{
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 200px;
+    height: 40px;
+}
+
+select option{
+text-align: center;
+}
+/*.search{
+    position: relative;
+    width: 400px;
+   
+}
+.search label{
+
+    position: relative;
+    width: 100%;
+}
+.search label input{
+    width: 200px;
+    height: 10px;
+    border-radius: 40px;
+    padding: 5px 40px;
+    padding-left: 35px;
+    outline: none;
+    border: 1px solid black;
+}
+.search label ion-icon{
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    font-size: 1.2em;
+}*/
+.titre_liste,.container_tab{
+    text-align: center;
+    margin-top: 28px;
+
+}
+.titre_liste{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    text-decoration: underline;
+}
+.container_tab{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+.delete{
+    padding: 5px;
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+.edite{
+    padding: 5px;
+    text-decoration: none;
+   background-color: blue;
+    border-radius: 10px;
+}
+.edite a{
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
